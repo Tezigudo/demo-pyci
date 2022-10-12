@@ -23,7 +23,3 @@ test:
 # Run linter on code
 lint:
 	$(LINTER) statistics.py
-
-# This is the Linux command to remove a directory
-clean:
-	/bin/rm -rf  __pycache__ 
