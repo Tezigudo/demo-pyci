@@ -1,8 +1,8 @@
 Continuous Integration Demo
 ============================
 
-![unittest](https://github.com/tezigudo/demo-pyci/actions/workflows/python-app.yml/badge.svg)
-
+![unittest](https://github.com/tezigudo/demo-pyci/actions/workflows/run_test.yml/badge.svg)
+[![codecov](https://codecov.io/gh/Tezigudo/demo-pyci/branch/main/graph/badge.svg?token=TELMEKO0S3)](https://codecov.io/gh/Tezigudo/demo-pyci)
 
 
 This project demonstrates use of Github Actions to build and test a Python project.  
