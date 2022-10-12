@@ -14,7 +14,7 @@ class StatisticsTest(TestCase):
         """variance of typical values"""
         self.assertEqual(0.0, variance(self.DATASET1))
         self.assertEqual(2.0, variance(self.DATASET2))
-        self.assertEqual(8.0, variance(self.DASET3))
+        self.assertEqual(8.0, variance(self.DATASET3))
 
     def test_variance_throws_exception(self):
         """variance of an empty list should raise an exception"""
