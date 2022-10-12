@@ -5,7 +5,7 @@ def average(data):
     """Return the average of a list of numeric values in data."""
     if len(data) == 0:
         raise ValueError("List must contain at least one value")
-    return sum(data)/len(data)
+    return sum(data) / len(data)
 
 
 def variance(data):
@@ -19,7 +19,7 @@ def variance(data):
     Example: variance([1,5]) is ((1-3)**2 + (5-3)**2)/2 = 4.
 
     Args:
-        data: list of numbers for which variance will be computed. 
+        data: list of numbers for which variance will be computed.
            Must contain at least one element.
     Returns:
         population variance of values in data list.
@@ -39,8 +39,8 @@ def variance(data):
     n = len(data)
     if n == 0:
         raise ValueError("Must have at least one value")
-    average = sum(data)/n
-    return sum([(x-average)**2 for x in data])/n
+    average = sum(data) / n
+    return sum([(x - average) ** 2 for x in data]) / n
 
 
 def stdev(data):

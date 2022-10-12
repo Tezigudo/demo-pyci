@@ -4,7 +4,6 @@ from unittest import TestCase
 
 
 class StatisticsTest(TestCase):
-
     def setUp(self) -> None:
         self.DATASET1 = [10.0, 10.0, 10.0, 10.0, 10.0]
         self.DATASET2 = [1, 2, 3, 4, 5]
@@ -28,6 +27,7 @@ class StatisticsTest(TestCase):
         self.assertEqual(sqrt(8.0), stdev(self.DATASET3))
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     import unittest
+
     unittest.main(verbosity=1)
